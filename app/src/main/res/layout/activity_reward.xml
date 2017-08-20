@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mahao.paintmode.RewardActivity">
+
+
+    <com.mahao.paintmode.widget.RewardView
+        android:id="@+id/reward_view"
+        app:cirCount="4"
+        app:cirEndCorlor="@color/endColor"
+        app:cirStartColor="@color/startColor"
+        app:cirLine="@color/colorLine"
+        app:cirBg="@color/colorBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btn_start_scan"
+            android:text="开始扫描"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:layout_toRightOf="@+id/btn_start_scan"
+            android:id="@+id/btn_stop_scan"
+            android:text="结束扫描"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

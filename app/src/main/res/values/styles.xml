@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <declare-styleable name="RewardView">
+
+        <attr name="cirCount" format="integer"></attr>
+        <attr name="cirBg" format="reference"></attr>
+        <attr name="cirLine" format="reference"></attr>
+        <attr name="cirStartColor" format="reference"></attr>
+        <attr name="cirEndCorlor" format="reference"></attr>
+        <attr name="cirRadius" format="integer"></attr>
+
+
+    </declare-styleable>
+
+</resources>
